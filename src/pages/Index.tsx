@@ -6,20 +6,20 @@ import Icon from '@/components/ui/icon';
 
 const CATEGORIES = [
   { id: 'women', name: 'Женские', emoji: '👠', gradient: 'from-pink-500 to-purple-500' },
-  { id: 'men', name: 'Мужские', emoji: '🎩', gradient: 'from-blue-500 to-cyan-500' },
+  { id: 'femboy', name: 'Фембои', emoji: '💕', gradient: 'from-blue-500 to-pink-500' },
   { id: 'stockings', name: 'Чулки', emoji: '🧦', gradient: 'from-purple-500 to-indigo-500' },
   { id: 'tights', name: 'Колготки', emoji: '✨', gradient: 'from-fuchsia-500 to-pink-500' },
 ];
 
 const SAMPLE_IMAGES = [
-  { id: 1, category: 'women', title: 'Элегантные черные чулки', img: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400' },
-  { id: 2, category: 'women', title: 'Классика белого', img: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400' },
-  { id: 3, category: 'men', title: 'Строгий стиль', img: 'https://images.unsplash.com/photo-1494955464529-790512c65305?w=400' },
-  { id: 4, category: 'stockings', title: 'Кружевные чулки', img: 'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400' },
-  { id: 5, category: 'tights', title: 'Блестящие колготки', img: 'https://images.unsplash.com/photo-1544441893-675973e31985?w=400' },
-  { id: 6, category: 'women', title: 'Французский шик', img: 'https://images.unsplash.com/photo-1560243563-062bfc001d68?w=400' },
-  { id: 7, category: 'men', title: 'Деловой образ', img: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400' },
-  { id: 8, category: 'stockings', title: 'Вечерний стиль', img: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400' },
+  { id: 1, category: 'women', title: 'Элегантные черные чулки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/63a6428d-cc44-4971-aa93-5e66b4166127.jpg' },
+  { id: 2, category: 'women', title: 'Классика белого кружева', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/b7805ae6-a471-41ee-9b51-46596eef9a48.jpg' },
+  { id: 3, category: 'stockings', title: 'Шёлковые чулки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/a29fa4eb-6af0-4229-a488-1a3ed01684ff.jpg' },
+  { id: 4, category: 'tights', title: 'Цветные колготки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/13d336c7-0480-400f-86c3-bf000835f752.jpg' },
+  { id: 5, category: 'tights', title: 'Прозрачные черные', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/d3c9e560-c642-4e0c-9ab1-a533f3cf5b9c.jpg' },
+  { id: 6, category: 'stockings', title: 'Красная сетка', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/b8b1091a-0c6f-4aa7-aca9-9df4c94d25f3.jpg' },
+  { id: 7, category: 'femboy', title: 'Черные чулки до бедра', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/94d222c9-a755-4c4b-af2c-14410bc85c3f.jpg' },
+  { id: 8, category: 'femboy', title: 'Розовые гольфы', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/b4fd9791-07e4-4e6f-8122-ce7d42d5a81a.jpg' },
 ];
 
 export default function Index() {
