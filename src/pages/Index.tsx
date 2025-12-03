@@ -12,14 +12,26 @@ const CATEGORIES = [
 ];
 
 const SAMPLE_IMAGES = [
-  { id: 1, category: 'women', title: 'Пяточки в черных чулках', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/4aeb4bf2-0192-43ee-84e6-645a265d375b.jpg' },
-  { id: 2, category: 'women', title: 'Белое кружево', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/76b03220-c2fa-4623-9859-3ffb5d9cf039.jpg' },
-  { id: 3, category: 'stockings', title: 'Шёлковые чулки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/2755ad81-f7d9-44df-90fa-307eadfbb1ae.jpg' },
-  { id: 4, category: 'tights', title: 'Цветные колготки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/cc13fc52-90db-4f78-a533-d1ec7a3eec4c.jpg' },
-  { id: 5, category: 'tights', title: 'Прозрачные черные', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/7959caac-e963-4a62-b41f-12634f34cf29.jpg' },
-  { id: 6, category: 'stockings', title: 'Красная сетка', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/8af33a9c-484d-41bb-9bbe-3dc8864ff044.jpg' },
-  { id: 7, category: 'femboy', title: 'Черные чулки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/873fc15e-2384-433c-8f0b-68312bfa2c80.jpg' },
-  { id: 8, category: 'femboy', title: 'Розовые гольфы', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/7b585d4e-579d-47cd-b77b-84117398f07d.jpg' },
+  { id: 1, category: 'women', title: 'Белые гольфы на диване', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/3361773f-79ea-4110-b68b-b3a0994473c1.jpg' },
+  { id: 2, category: 'women', title: 'Чёрные чулки до бедра', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/9ca9d2ae-4960-43d6-a463-7343e1e63ce1.jpg' },
+  { id: 3, category: 'women', title: 'Розовые полосатые', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/5e319d36-dffb-4662-b996-792471e313aa.jpg' },
+  { id: 4, category: 'stockings', title: 'Чёрные чулки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/bcd47ab3-728d-4317-96e5-47adf755fbbc.jpg' },
+  { id: 5, category: 'women', title: 'Белые рифлёные', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/ed3a11fb-ab19-4ccf-bed3-19aec143d163.jpg' },
+  { id: 6, category: 'stockings', title: 'Красные чулки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/cdd95a7c-b6c6-4d7f-97c2-02c5e9133814.jpg' },
+  { id: 7, category: 'tights', title: 'Синие гольфы', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/7f2b0bfe-c75c-42ba-8025-05ae857e97be.jpg' },
+  { id: 8, category: 'tights', title: 'Фиолетовые полоски', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/171b313d-b04e-42bd-a676-822e52bb4394.jpg' },
+  { id: 9, category: 'stockings', title: 'Чёрное кружево', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/093bc2dd-25a8-4a68-9aa2-d8d1008d1ce9.jpg' },
+  { id: 10, category: 'women', title: 'Белые хлопковые', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/fece5195-8622-430d-8848-d73baea6d9b9.jpg' },
+  { id: 11, category: 'stockings', title: 'Чёрная сетка', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/24e3ce51-9221-40fb-9c13-6fae4ff381f2.jpg' },
+  { id: 12, category: 'women', title: 'Пастельно-розовые', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/c2b47dab-2cdb-472b-aad9-a83a17faa940.jpg' },
+  { id: 13, category: 'tights', title: 'Радужные полоски', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/5676313a-db30-46e1-a1f9-15dde2746d0b.jpg' },
+  { id: 14, category: 'tights', title: 'Чёрно-белые полоски', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/610df690-e3a0-4aa5-bb12-f6493e82e281.jpg' },
+  { id: 15, category: 'stockings', title: 'Бордовые гольфы', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/9d92661b-ddf6-41a8-8343-b1aa0c4e7a31.jpg' },
+  { id: 16, category: 'tights', title: 'Жёлтые гольфы', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/2da7401f-080b-48f5-8bd6-4adc365f8d25.jpg' },
+  { id: 17, category: 'femboy', title: 'Чёрные чулки', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/981eb0ad-35b2-42b7-ae35-6e081ca12477.jpg' },
+  { id: 18, category: 'femboy', title: 'Пастельные полоски', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/34284e8f-8f33-4ba0-b9f8-2a2c9b667e67.jpg' },
+  { id: 19, category: 'tights', title: 'Зелёные гольфы', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/d34e2725-6f4b-49cb-a30c-95faa90fa647.jpg' },
+  { id: 20, category: 'stockings', title: 'Белое кружево', img: 'https://cdn.poehali.dev/projects/c71520f7-2b26-4da1-8ee7-7ad9133d27c9/files/637a8d2a-e80c-48e0-bd9d-d7e093ac55b8.jpg' },
 ];
 
 export default function Index() {
